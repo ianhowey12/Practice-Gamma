@@ -87,9 +87,11 @@ bool insert(trie_node_t* root, char* word) {
  * @param root the root of the Trie to clean up
  */
 void free_trie(trie_node_t* root) {
-    free_trie_node(&root);
-    for (int i = 0; i < ASCII_CHARS - FIRST_VALID_CHAR; i++) {
-        free_trie(root->children[i]);
+    if(root != NULL){
+        for (int i = 0; i < ASCII_CHARS - FIRST_VALID_CHAR; i++) {
+            free_trie(root->children[i]);
+        }
+        free_trie_node(&root);
     }
 }
 

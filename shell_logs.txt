@@ -1,0 +1,500 @@
+   16  make debug
+   17  python3 driver.py
+   18  make debug
+   19  make debug
+   20  ./runner -r -u traces/week2/basic/binary.rep
+   21  ./runner -r -u -c traces/week2/basic/binary.rep
+   22  make debug
+   23  ./runner -r -u -c traces/week2/basic/binary.rep
+   24  make debug
+   25  python3 driver.py
+   26  make debug
+   27  make debug
+   28  ./runner -r -u traces/week2/basic/binary.rep
+   29  make debug
+   30  ./runner -r -u traces/week2/basic/binary.rep
+   31  make debug
+   32  make debug
+   33  ./runner -r -u traces/week2/basic/binary.rep
+   34  ./runner -r -u traces/week2/complex/collatz.rep
+   35  make debug
+   36  ./runner -r -u traces/week2/complex/collatz.rep
+   37  make debug
+   38  ./runner -r -u traces/week2/complex/collatz.rep
+   39  make debug
+   40  ./runner -r -u traces/week2/complex/collatz.rep
+   41  make debug
+   42  make debug
+   43  make debug
+   44  ./runner -r -u traces/week2/complex/collatz.rep
+   45  make debug
+   46  ./runner -r -u traces/week2/complex/collatz.rep
+   47  make debug
+   48  ./runner -r -u traces/week2/complex/collatz.rep
+   49  make debug
+   50  ./runner -r -u traces/week2/complex/collatz.rep
+   51  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   52  make debug
+   53  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   54  make debug
+   55  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   56  make debug
+   57  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   58  make debug
+   59  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   60  make debug
+   61  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   62  make debug
+   63  valgrind ./runner -r -u traces/week2/complex/collatz.rep
+   64  make debug
+   65  python3 driver.py -w1
+   66  python3 driver.py -w1
+   67  make debug
+   68  python3 driver.py -w1
+   69  ./runner bump_test
+   70  ./bump_test
+   71  make debug
+   72  ./bump_test
+   73  make debug
+   74  ./bump_test
+   75  ./runner -r -u traces/week2/complex/collatz.rep
+   76  make debug
+   77  ./bump_test
+   78  make debug
+   79  make debug
+   80  ./bump_test
+   81  ./coalesce_check
+   82  ./coalesce_test
+   83  make debug
+   84  ./runner -r -u traces/week2/complex/collatz.rep
+   85  make debug
+   86  ./runner -r -u traces/week2/complex/collatz.rep
+   87  make debug
+   88  ./runner -r -u traces/week2/complex/collatz.rep
+   89  make debug
+   90  ./runner -r -u traces/week2/complex/collatz.rep
+   91  make debug
+   92  ./runner -r -u traces/week2/complex/collatz.rep
+   93  make debug
+   94  ./runner -r -u traces/week2/complex/random_medium.rep
+   95  ./runner -r -u traces/week2/complex/random-medium.rep
+   96  ./runner -r -u traces/week2/complex/modinv.rep
+   97  ./runner -r -u traces/week2/complex/popcount.rep
+   98  make debug
+   99  ./runner -r -u traces/week2/complex/popcount.rep
+  100  ./runner -r -u traces/week2/basic/random2.rep
+  101  make debug
+  102  ./runner -r -u traces/week2/basic/random2.rep
+  103  make debug
+  104  ./runner -r -u traces/week2/evil/add_rand
+  105  make debug
+  106  ./runner -r -u traces/week2/basic/random.rep
+  107  make debug
+  108  python3 driver.py
+  109  make debug
+  110  python3 driver.py
+  111  make debug
+  112  ./runner -r -u traces/week2/basic/random2.rep
+  113  make debug
+  114  python3 driver.py
+  115  make debug
+  116  python3 driver.py
+  117  make debug
+  118  python3 driver.py
+  119  make debug
+  120  ./runner -r -u traces/week2/basic/random2.rep
+  121  make debug
+  122  ./runner -r -u traces/week2/basic/random2.rep
+  123  make debug
+  124  python3 driver.py
+  125  python3 driver.py
+  126  make debug
+  127  python3 driver.py
+  128  make debug
+  129  python3 driver.py
+  130  make debug
+  131  ./runner -r -u traces/week2/basic/random2.rep
+  132  make debug
+  133  make debug
+  134  ./runner -r -u traces/week2/basic/random2.rep
+  135  make debug
+  136  ./runner -r -u traces/week2/basic/random2.rep
+  137  make debug
+  138  ./runner -r -u traces/week2/basic/random2.rep
+  139  make debug
+  140  ./runner -r -u traces/week2/basic/random2.rep
+  141  make debug
+  142  ./runner -r -u traces/week2/basic/random2.rep
+  143  make debug
+  144  ./runner -r -u traces/week2/basic/random2.rep
+  145  make debug
+  146  ./runner -r -u traces/week2/basic/random2.rep
+  147  make debug
+  148  python3 driver.py
+  149  ./runner -r -u traces/week2/basic/coalescing.rep
+  150  python3 driver.py
+  151  make debug
+  152  ./runner -r -u traces/week2/basic/coalescing.rep
+  153  python3 driver.py
+  154  make debug
+  155  python3 driver.py
+  156  make debug
+  157  make debug
+  158  python3 driver.py
+  159  ./runner -r -u traces/week2/basic/coalescing.rep
+  160  make debug
+  161  ./runner -r -u traces/week2/basic/coalescing.rep
+  162  python3 driver.py
+  163  make debug
+  164  ./runner -r -u traces/week2/basic/coalescing.rep
+  165  ./runner -r -u traces/week2/basic/random-medium.rep
+  166  ./runner -r -u traces/week2/complex/random-medium.rep
+  167  make debug
+  168  ./runner -r -u traces/week2/complex/random-medium.rep
+  169  make debug
+  170  ./runner -r -u traces/week2/complex/random-medium.rep
+  171  ./runner -r -u traces/week2/complex/popcount.rep
+  172  make debug
+  173  ./runner -r -u traces/week2/complex/popcount.rep
+  174  make debug
+  175  ./runner -r -u traces/week2/complex/popcount.rep
+  176  make debug
+  177  ./runner -r -u traces/week2/complex/popcount.rep
+  178  make debug
+  179  ./runner -r -u traces/week2/complex/popcount.rep
+  180  make debug
+  181  ./runner -r -u traces/week2/complex/popcount.rep
+  182  make debug
+  183  ./runner -r -u traces/week2/complex/popcount.rep
+  184  make debug
+  185  ./runner -r -u traces/week2/complex/popcount.rep
+  186  ./runner -r -u traces/week2/complex/random-medium.rep
+  187  make debug
+  188  ./runner -r -u traces/week2/complex/random-medium.rep
+  189  make debug
+  190  ./runner -r -u traces/week2/complex/random-medium.rep
+  191  python3 driver.py
+  192  make debug
+  193  python3 driver.py
+  194  make debug
+  195  python3 driver.py
+  196  make debug
+  197  python3 driver.py
+  198  make debug
+  199  python3 driver.py
+  200  make debug
+  201  python3 driver.py
+  202  make debug
+  203  python3 driver.py
+  204  make debug
+  205  make debug
+  206  python3 driver.py
+  207  make debug
+  208  ./runner -r -u traces/week2/complex/random-medium.rep
+  209  make debug
+  210  ./runner -r -u traces/week2/complex/random-medium.rep
+  211  ./runner -r -u traces/week2/complex/collatz.rep
+  212  ./runner -r -u traces/week2/complex/rec_sum.rep
+  213  ./runner -r -u traces/week2/complex/par_truepar.rep
+  214  make debug
+  215  ./runner -r -u traces/week2/complex/par_truepar.rep
+  216  make debug
+  217  ./runner -r -u traces/week2/complex/par_truepar.rep
+  218  make debug
+  219  ./runner -r -u traces/week2/complex/par_truepar.rep
+  220  make debug
+  221  ./runner -r -u traces/week2/complex/par_truepar.rep
+  222  make debug
+  223  ./runner -r -u traces/week2/complex/par_truepar.rep
+  224  make debug
+  225  ./runner -r -u traces/week2/complex/par_truepar.rep
+  226  make debug
+  227  ./runner -r -u traces/week2/complex/par_truepar.rep
+  228  make debug
+  229  make debug
+  230  make debug
+  231  ./runner -r -u traces/week2/complex/par_truepar.rep
+  232  make debug
+  233  ./runner -r -u traces/week2/complex/random_medium.rep
+  234  ./runner -r -u traces/week2/complex/random-medium.rep
+  235  make debug
+  236  ./runner -r -u traces/week2/complex/random-medium.rep
+  237  make debug
+  238  ./runner -r -u traces/week2/complex/random-medium.rep
+  239  make debug
+  240  ./runner -r -u traces/week2/complex/random-medium.rep
+  241  make debug
+  242  ./runner -r -u traces/week2/complex/random-medium.rep
+  243  make debug
+  244  ./runner -r -u traces/week2/complex/random-medium.rep
+  245  valgrind ./runner -r -u traces/week2/complex/random-medium.rep
+  246  make debug
+  247  ./runner -r -u traces/week2/complex/random-medium.rep
+  248  make debug
+  249  ./runner -r -u traces/week2/complex/random-medium.rep
+  250  make debug
+  251  ./runner -r -u traces/week2/complex/random-medium.rep
+  252  make debug
+  253  ./runner -r -u traces/week2/complex/random-medium.rep
+  254  make debug
+  255  ./runner -r -u traces/week2/complex/random-medium.rep
+  256  make debug
+  257  ./runner -r -u traces/week2/complex/random-medium.rep
+  258  make debug
+  259  ./runner -r -u traces/week2/complex/random-medium.rep
+  260  make debug
+  261  ./runner -r -u traces/week2/complex/random-medium.rep
+  262  make debug
+  263  make debug
+  264  ./runner -r -u traces/week2/complex/random-medium.rep
+  265  make debug
+  266  ./runner -r -u traces/week2/complex/random-medium.rep
+  267  make debug
+  268  ./runner -r -u traces/week2/complex/random-medium.rep
+  269  make debug
+  270  ./runner -r -u traces/week2/complex/random-medium.rep
+  271  make debug
+  272  ./runner -r -u traces/week2/complex/random-medium.rep
+  273  make debug
+  274  ./runner -r -u traces/week2/complex/random-medium.rep
+  275  make debug
+  276  ./runner -r -u traces/week2/complex/random-medium.rep
+  277  make debug
+  278  ./runner -r -u traces/week2/complex/random-medium.rep
+  279  make debug
+  280  ./runner -r -u traces/week2/complex/random-medium.rep
+  281  make debug
+  282  make debug
+  283  ./runner -r -u traces/week2/complex/random-medium.rep
+  284  make debug
+  285  ./runner -r -u traces/week2/complex/random-medium.rep
+  286  make debug
+  287  ./runner -r -u traces/week2/complex/collatz.rep
+  288  ./runner -r -u traces/week2/complex/par-exec.rep
+  289  ./runner -r -u traces/week2/complex/par_exec.rep
+  290  ./runner -r -u traces/week2/evil/long_inputs.rep
+  291  make debug
+  292  ./runner -r -u traces/week2/evil/long_inputs.rep
+  293  ./runner -r -u traces/week2/complex/collatz.rep
+  294  ./runner -r -u traces/week2/complex/random-medium.rep
+  295  make debug
+  296  ./runner -r -u traces/week2/complex/par_exec.rep
+  297  ./runner -r -u traces/week2/complex/random-medium.rep
+  298  make debug
+  299  ./runner -r -u traces/week2/complex/random-medium.rep
+  300  make debug
+  301  ./runner -r -u traces/week2/complex/random-medium.rep
+  302  make debug
+  303  ./runner -r -u traces/week2/complex/random-medium.rep
+  304  make debug
+  305  ./runner -r -u traces/week2/complex/random-medium.rep
+  306  make debug
+  307  ./runner -r -u traces/week2/complex/random-medium.rep
+  308  make debug
+  309  ./runner -r -u traces/week2/complex/random-medium.rep
+  310  make debug
+  311  ./runner -r -u traces/week2/complex/random-medium.rep
+  312  make debug
+  313  ./runner -r -u traces/week2/complex/fib_iterative.rep
+  314  ./runner -r -u traces/week2/complex/random-medium.rep
+  315  make debug
+  316  make debug
+  317  make debug
+  318  ./runner -r -u traces/week2/complex/random-medium.rep
+  319  make debug
+  320  ./runner -r -u traces/week2/complex/random-medium.rep
+  321  make debug
+  322  ./runner -r -u traces/week2/complex/random-medium.rep
+  323  ./runner -r -u traces/week2/basic/binary.rep
+  324  make debug
+  325  ./runner -r -u traces/week2/basic/binary.rep
+  326  make debug
+  327  ./runner -r -u traces/week2/basic/binary.rep
+  328  python3 driver.py
+  329  make debug
+  330  python3 driver.py
+  331  make debug
+  332  python3 driver.py
+  333  make debug
+  334  python3 driver.py
+  335  python3 driver.py
+  336  make debug
+  337  python3 driver.py
+  338  ./runner -r -u traces/week2/basic/binary.rep
+  339  python3 driver.py
+  340  make debug
+  341  ./runner -r -u traces/week2/basic/binary.rep
+  342  ./runner -r -u traces/week2/basic/binary.rep
+  343  make debug
+  344  ./runner -r -u traces/week2/basic/binary.rep
+  345  make debug
+  346  ./runner -r -u traces/week2/basic/binary.rep
+  347  make debug
+  348  ./runner -r -u traces/week2/basic/binary.rep
+  349  make debug
+  350  ./runner -r -u traces/week2/basic/binary.rep
+  351  make debug
+  352  ./runner -r -u traces/week2/basic/binary.rep
+  353  make debug
+  354  ./runner -r -u traces/week2/basic/binary.rep
+  355  make debug
+  356  ./runner -r -u traces/week2/basic/binary.rep
+  357  make debug
+  358  ./runner -r -u traces/week2/basic/binary.rep
+  359  make debug
+  360  ./runner -r -u traces/week2/basic/binary.rep
+  361  make debug
+  362  ./runner -r -u traces/week2/basic/binary.rep
+  363  make debug
+  364  python3 driver.py
+  365  make debug
+  366  python3 driver.py
+  367  make debug
+  368  python3 driver.py
+  369  make debug
+  370  make debug
+  371  python3 driver.py
+  372  make debug
+  373  ./check_heap
+  374  ./heap_runner
+  375  make debug
+  376  ./heap_runner
+  377  make debug
+  378  python3 driver.py
+  379  git add .
+  380  git commit -m "Submission"
+  381  git push
+  382  make debug
+  383  ./runner -r -u traces/week2/basic/binary.rep
+  384  make debug
+  385  python3 driver.py
+  386  make debug
+  387  python3 driver.py
+  388  make debug
+  389  python3 driver.py
+  390  make debug
+  391  ./runner -r -u traces/week1/short1-bal.rep
+  392  make debug
+  393  ./runner -r -u traces/week1/short1-bal.rep
+  394  make debug
+  395  ./runner -r -u traces/week1/short1-bal.rep
+  396  make debug
+  397  ./runner -r -u traces/week1/short1-bal.rep
+  398  make debug
+  399  ./runner -r -u traces/week1/short1-bal.rep
+  400  make debug
+  401  ./runner -r -u traces/week1/short1-bal.rep
+  402  make debug
+  403  ./runner -r -u traces/week1/short1-bal.rep
+  404  make debug
+  405  ./runner -r -u traces/week1/short1-bal.rep
+  406  make debug
+  407  ./runner -r -u traces/week1/short1-bal.rep
+  408  make debug
+  409  ./runner -r -u traces/week1/short1-bal.rep
+  410  make debug
+  411  ./runner -r -u traces/week1/short1-bal.rep
+  412  make debug
+  413  ./runner -r -u traces/week1/short1-bal.rep
+  414  make debug
+  415  ./runner -r -u traces/week1/short1-bal.rep
+  416  make debug
+  417  ./runner -r -u traces/week1/short1-bal.rep
+  418  make debug
+  419  ./runner -r -u traces/week1/short1-bal.rep
+  420  git clone https://github.com/ianhowey12/Test-Repository
+  421  git clone https://github.com/ianhowey12/Test-Repository
+  422  git clone https://github.com/ianhowey12/Test-Repository copy
+  423  ls -l
+  424  cd copy
+  425  ls -l
+  426  make clean
+  427  make debug
+  428  make test.c
+  429  gcc test.c -o binary
+  430  gdb binary
+  431  gdb test
+  432  gdb binary
+  433  gcc test.c -o binary
+  434  gdb binary
+  435  gcc test.c -o binary
+  436  gdb binary
+  437  git add .
+  438  git commit -m "Done"
+  439  git push
+  440  git clone https://github.com/ianhowey12/Practice-Gamma
+  441  ./snow
+  442  make snow
+  443  make clean
+  444  touch trie.o
+  445  make clean
+  446  make snow
+  447  rm -rf
+  448  ls -l
+  449  rm bin
+  450  ls -l
+  451  rm -f
+  452  ls -l
+  453  git clone https://github.com/ianhowey12/Practice-Gamma
+  454  https://github.com/ianhowey12/Practice-Gamma
+  455  git clone https://github.com/ianhowey12/Practice-Gamma
+  456  make snow
+  457  make grumpy
+  458  make dopey
+  459  gdb second_trie
+  460  gdb dinosaurs.in.ref
+  461  gdb outputs/dinosaurs.in.ref
+  462  make happy
+  463  make snow
+  464  make dopey
+  465  gdb bin/second_trie
+  466  bin.second_trie -x easy.in
+  467  bin/second_trie -x easy.in
+  468  bin/second_trie -x testcases/easy.in
+  469  gdb bin/second_trie
+  470  gdb bin/second_trie -x easy.in
+  471  gdb bin/second_trie -x testcases/easy.in
+  472  gdb bin/second_trie
+  473  make happy
+  474  make snow
+  475  make dopey
+  476  make grumpy
+  477  bin/second_trie -x testcases/easy.in
+  478  gdb bin/second_trie -x testcases/easy.in
+  479  gdb bin/second_trie
+  480  make happy
+  481  make doc
+  482  gdb bin/second_trie
+  483  make happy
+  484  make doc
+  485  gdb bin/second_trie
+  486  make happy
+  487  make doc
+  488  make happy
+  489  make doc
+  490  gdb bin/second_trie
+  491  make happy
+  492  make doc
+  493  gdb bin/second_trie
+  494  make grumpy
+  495  gdb bin/second_trie
+  496  trie_ref -x testcases/dinosaurs.in
+  497  bin/second_trie -x testcases/dinosaurs.in
+  498  ./trie_ref -x testcases/dinosaurs.in
+  499  gdb trie_ref
+  500  make grumpy
+  501  trie_ref -x dinosaurs.in
+  502  trie_ref dinosaurs.in
+  503  trie_ref
+  504  bash trie_ref
+  505  chmod +x trie_ref
+  506  trie_ref -x dinosaurs.in
+  507  trie_ref -x testcases/dinosaurs.in
+  508  bin/second_trie -x testcases/dinosaurs.in
+  509  make happy
+  510  make doc
+  511  make dopey
+  512  make grumpy
+  513  touch shell_logs.txt
+  514  history
+  515  history > shell_logs.txt
